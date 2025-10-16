@@ -22,6 +22,26 @@ npm install sequelize
 npm install --save mysql2
 ```
 
+```sh
+npm install --save-dev sequelize-cli
+```
+
+```sh
+npx sequelize-cli init
+```
+
+```sh
+npm install dotenv
+```
+
+```sh
+npm install express
+```
+
+```sh
+npm install --save-dev nodemon
+```
+
 CDN de tailwind
 
 ```
