@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "start": "node app.js"
   },
   "dependencies": {
     "mysql2": "^3.15.2",

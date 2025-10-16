@@ -2,25 +2,13 @@
 
 ## Project Setup
 
-```sh
-npm create vue@latest
-```
+Faire trois tours sur soi-même
 
 ```sh
 npm install
 ```
 
-```sh
-npm install sequelize
-```
-
-```sh
-npm install sequelize
-```
-
-```sh
-npm install --save mysql2
-```
+Pas besoin de faire les `npm install ...`, npm install sans argument ira lire le fichier package.json et installera tout le nécessaire comme un grand
 
 CDN de tailwind
 
