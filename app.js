@@ -6,10 +6,13 @@ import express from 'express'
 import dotenv from 'dotenv'
 import taskRoutes from './routes/tasks.js'
 import db from './models/index.js'
+import cors from 'cors'
+
 dotenv.config()
 
 const { sequelize } = db
 const app = express()
+app.use(cors())
 const PORT = process.env.PORT || 3000
 
 // Middleware pour parser le JSON

@@ -30,6 +30,10 @@ npm install express
 npm install --save-dev nodemon
 ```
 
+```sh
+npm install cors
+```
+
 CDN de tailwind
 
 ```
