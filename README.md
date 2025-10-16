@@ -10,6 +10,18 @@ npm create vue@latest
 npm install
 ```
 
+```sh
+npm install sequelize
+```
+
+```sh
+npm install sequelize
+```
+
+```sh
+npm install --save mysql2
+```
+
 CDN de tailwind
 
 ```
