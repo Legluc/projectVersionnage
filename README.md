@@ -10,6 +10,26 @@ npm install
 
 Pas besoin de faire les `npm install ...`, npm install sans argument ira lire le fichier package.json et installera tout le nécessaire comme un grand
 
+```sh
+npm install --save-dev sequelize-cli
+```
+
+```sh
+npx sequelize-cli init
+```
+
+```sh
+npm install dotenv
+```
+
+```sh
+npm install express
+```
+
+```sh
+npm install --save-dev nodemon
+```
+
 CDN de tailwind
 
 ```
