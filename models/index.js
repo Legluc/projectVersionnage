@@ -4,7 +4,7 @@ import { Sequelize } from 'sequelize'
 import process from 'process'
 import * as url from 'url'
 import dotenv from 'dotenv'
-import TaskModel from './task.js'
+import TaskModel from './Task.js'
 
 // Charge les variables d'environnement
 dotenv.config()

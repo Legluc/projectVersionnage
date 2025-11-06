@@ -1,10 +1,9 @@
 // Insérer ici une super application Express
 
-console.log('TODO')
-
 import express from 'express'
 import dotenv from 'dotenv'
 import taskRoutes from './routes/tasks.js'
+import authRoutes from './routes/auth.js'
 import db from './models/index.js'
 import cors from 'cors'
 
@@ -25,6 +24,7 @@ app.use(express.json())
 
 // Routes
 app.use('/tasks', taskRoutes)
+app.use('/auth', authRoutes)
 
 // Démarrer le serveur
 app.listen(PORT, () => {
