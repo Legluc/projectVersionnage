@@ -1,16 +1,11 @@
 <template>
-  <div id="app">
-    <TaskList />
+  <div id="app" class="!flex flex-col flex-center gap-[60px]">
+    <router-view />
   </div>
 </template>
 
 <script>
-import TaskList from './components/TaskList.vue'
-
 export default {
   name: 'App',
-  components: {
-    TaskList,
-  },
 }
 </script>
