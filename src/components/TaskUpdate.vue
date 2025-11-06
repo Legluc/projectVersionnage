@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-md mx-auto p-4 border rounded-lg shadow-md">
-    <h1 class="text-xl font-bold mb-4">Modifier la tâche</h1>
+    <h1 class="text-xl font-bold mb-4 uppercase">Modifier la tâche</h1>
 
     <!-- Message de chargement -->
     <div v-if="loading" class="text-center py-4">

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-md mx-auto p-4 border rounded-lg shadow-md">
-    <h1 class="text-xl font-bold mb-4">Créer une nouvelle tâche</h1>
+    <h1 class="text-xl font-bold mb-4 uppercase">Créer une nouvelle tâche</h1>
 
     <!-- Formulaire de création -->
     <form

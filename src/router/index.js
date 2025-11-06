@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '@/components/Index.vue'
+import Register from '@/components/Register.vue'
+import Login from '@/components/Login.vue'
 import TaskList from '@/components/TaskList.vue'
 import TaskListUnique from '@/components/TaskListUnique.vue'
 import TaskCreate from '@/components/TaskCreate.vue'
@@ -8,17 +10,27 @@ import TaskDelete from '@/components/TaskDelete.vue'
 
 const routes = [
   {
-    path: '/', // Route racine pour afficher la liste des tâches
+    path: '/',
     name: 'Index',
     component: Index,
   },
   {
-    path: '/tasks/', // Route racine pour afficher la liste des tâches
+    path: '/Register',
+    name: 'Register',
+    component: Register,
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },
+  {
+    path: '/tasks/',
     name: 'TaskList',
     component: TaskList,
   },
   {
-    path: '/tasks/:id', // Route pour afficher une tâche unique
+    path: '/tasks/:id',
     name: 'TaskDetail',
     component: TaskListUnique,
   },

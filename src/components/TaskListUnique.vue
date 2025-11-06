@@ -1,6 +1,6 @@
 <template>
   <div class="w-[80vw]">
-    <h1 class="text-2xl font-bold !mb-[32px]">Détails de la tâche</h1>
+    <h1 class="text-2xl font-bold !mb-[32px] uppercase">Détails de la tâche</h1>
     <div v-if="task" class="flex gap-[16px] flex-wrap items-stretch">
       <div class="mb-2 p-2 border rounded min-w-[30%]">
         {{ task.titre }} <br />

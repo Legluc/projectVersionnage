@@ -1,16 +1,18 @@
 <template>
-  <div class="w-[80vw] flex items-start justify-start flex-col gap-[40px]">
-    <h1 class="text-2xl font-bold !mb-[32px]">Accueil</h1>
-    <div>
+  <div
+    class="flex items-center justify-start flex-col min-h-[100vh] w-full gap-[40px] px-[100px] pt-[60px]"
+  >
+    <h1 class="text-2xl font-bold uppercase">Accueil</h1>
+    <div class="flex gap-[20px] w-1/4 justify-self-center">
       <router-link
-        to="/loggin"
-        class="text-indigo-600 hover:text-indigo-900 w-fit border-solid border-2 rounded-lg !p-[8px]"
+        to="/login"
+        class="text-indigo-600 hover:text-indigo-900 text-center w-full border-solid border-2 rounded-lg !p-[8px]"
       >
         Se connecter
       </router-link>
       <router-link
         to="/register"
-        class="text-indigo-600 hover:text-indigo-900 w-fit border-solid border-2 rounded-lg !p-[8px]"
+        class="text-indigo-600 hover:text-indigo-900 text-center w-full border-solid border-2 rounded-lg !p-[8px]"
       >
         S'inscrire
       </router-link>
@@ -19,25 +21,5 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      tasks: [],
-    }
-  },
-  async created() {
-    await this.fetchTasks()
-  },
-  methods: {
-    async fetchTasks() {
-      try {
-        const response = await fetch('http://localhost:3000/tasks')
-        if (!response.ok) throw new Error('Erreur lors de la récupération des tâches')
-        this.tasks = await response.json()
-      } catch (error) {
-        console.error('Erreur :', error)
-      }
-    },
-  },
-}
+export default {}
 </script>

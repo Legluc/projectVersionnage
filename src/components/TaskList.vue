@@ -1,6 +1,6 @@
 <template>
   <div class="w-[80vw] flex flex-col gap-[40px]">
-    <h1 class="text-2xl font-bold !mb-[32px]">Liste des tâches</h1>
+    <h1 class="text-2xl font-bold !mb-[32px] uppercase">Liste des tâches</h1>
     <ul class="flex gap-[16px] flex-wrap items-stretch">
       <li v-for="task in tasks" :key="task.id" class="mb-2 p-2 border rounded min-w-[30%]">
         <router-link :to="`/tasks/${task.id}`">
